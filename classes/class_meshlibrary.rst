@@ -125,7 +125,7 @@ You can get an unused ID from :ref:`get_last_unused_item_id<class_MeshLibrary_me
 
 :ref:`int<class_int>` **find_item_by_name** **(** :ref:`String<class_String>` name **)** |const|
 
-Returns the first item with the given name.
+Returns the first item with the given name. If no matching item can be found, returns -1.
 
 .. rst-class:: classref-item-separator
 
