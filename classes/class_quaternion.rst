@@ -283,7 +283,7 @@ Constructs a quaternion representing the shortest arc between two points on the 
 
 :ref:`Quaternion<class_Quaternion>` **Quaternion** **(** :ref:`Vector3<class_Vector3>` axis, :ref:`float<class_float>` angle **)**
 
-Constructs a quaternion that will rotate around the given axis by the specified angle. The axis must be a normalized vector.
+Constructs a quaternion that will rotate around the given axis by the specified angle. The axis must be a normalized vector. The angle is in units of radians.
 
 .. rst-class:: classref-item-separator
 
